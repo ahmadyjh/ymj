@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+  }
+  
+  header {
+    background-color: rgb(41,128,185);
+/*    background-image: url(basketball.jpg);  */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    text-decoration-style: none;
+    color: white;
+  }
+  
+  nav ul li a {
+    color:white;
+    text-decoration: none;
+
+  }
+  nav ul li :hover{
+    color: lavender;
+  }
+  
+  main {
+    padding: 20px;
+    background-color:lavender;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    
+  }
+  
+  td {
+    padding: 10px;
+    border: 2px solid white;
+  }
+  
+  footer {
+    background-color: rgb(41,128,185);
+  /*  background-image: url(basketball.jpg); */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  /* Responsive styles */
+  /*
+  @media only screen and (max-width: 600px) {
+      /* Header styles */
+  /*    header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        margin-top: 10px;
+      }
+      nav ul {
+        flex-direction: column;
+      }
+      nav ul li {
+        margin-bottom: 10px;      */
+ /*     } 
+      /* Table styles */
+/*      table {
+        width: 100%;
+      }
+      td {
+        display: block;
+        width: 100%;
+      }
+    } 
+    img{
+      
+      width: 300px;
+      height: 300px;
+     /* padding: 20px; */
+     /* border-radius: 20%;*/
+    /* margin: 20px; 
+      
+    } */
+    img:hover{
+      opacity: 0.5;
+    }
+   .side{
+    float: left;
+    width: 300px;
+    background-color: rgb(236, 240, 243);
+   }
+   main p{
+    margin: 20px;
+   
+   }
+   main img{
+    float: right;
+   }
+   .fa {
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    font-size: 30px;
+    width: 20px;
+    float: right;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  /* Add a hover effect if you want */
+.fa:hover {
+
+  color: lavender;
+}
+
+/* Set a specific color for each brand */
+main h3{
+  width: 30%;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: rgb(41, 128, 185);
+}
+table thead{
+  background-color: rgb(41, 128, 185);
+  font-weight: bolder;
+  color: #fff;
+}
+.table1 td{
+  width: 60%;
+}
+.table1{
+  
+}
